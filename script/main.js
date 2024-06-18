@@ -1,27 +1,27 @@
 const gatos = [
   {
     name: "Bolitinha 99",
-    foto: "../docs/assets/bolita.jpg",
+    foto: "/deniscrocha.github.io/docs/assets/bolita.jpg",
   },
   {
     name: "Jurema",
-    foto: "../docs/assets/jurema.jpg",
+    foto: "/deniscrocha.github.io/docs/assets/jurema.jpg",
   },
   {
     name: "Lulu",
-    foto: "../docs/assets/lulu.jpg",
+    foto: "/deniscrocha.github.io/docs/assets/lulu.jpg",
   },
   {
     name: "Luis Alfonso Nenê",
-    foto: "../docs/assets/luis.jpg",
+    foto: "/deniscrocha.github.io/docs/assets/luis.jpg",
   },
   {
     name: "Lumi(nosa)",
-    foto: "../docs/assets/lumi.jpg",
+    foto: "/deniscrocha.github.io/docs/assets/lumi.jpg",
   },
   {
     name: "Vardelino Barbacena",
-    foto: "../docs/assets/vardy.jpg",
+    foto: "/deniscrocha.github.io/docs/assets/vardy.jpg",
   },
 ];
 
