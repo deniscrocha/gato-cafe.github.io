@@ -1,27 +1,27 @@
 const gatos = [
   {
     name: "Bolitinha 99",
-    foto: "../public/bolita.jpg",
+    foto: "../docs/assets/bolita.jpg",
   },
   {
     name: "Jurema",
-    foto: "../public/jurema.jpg",
+    foto: "../docs/assets/jurema.jpg",
   },
   {
     name: "Lulu",
-    foto: "../public/lulu.jpg",
+    foto: "../docs/assets/lulu.jpg",
   },
   {
     name: "Luis Alfonso Nenê",
-    foto: "../public/luis.jpg",
+    foto: "../docs/assets/luis.jpg",
   },
   {
     name: "Lumi(nosa)",
-    foto: "../public/lumi.jpg",
+    foto: "../docs/assets/lumi.jpg",
   },
   {
     name: "Vardelino Barbacena",
-    foto: "../public/vardy.jpg",
+    foto: "../docs/assets/vardy.jpg",
   },
 ];
 
