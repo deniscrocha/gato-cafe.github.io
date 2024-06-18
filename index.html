@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pagina</title>
+    <link href="./styles/header.css" rel="stylesheet" />
+    <link href="./styles/index.css" rel="stylesheet" />
+    <script src="./script/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="" class="logo">
+          <h1>
+            <span>Gato</span>
+            <span>Café</span>
+          </h1>
+        </a>
+        <ul>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link actual-page">Página Inicial</a>
+          </li>
+          <li class="nav-item"><a href="a" class="nav-link">Serviços</a></li>
+          <li class="nav-item"><a href="a" class="nav-link">Clientes</a></li>
+          <li class="nav-item"><a href="a" class="nav-link">Sobre</a></li>
+          <li class="nav-item">
+            <a href="a" class="nav-link">Trabalhe Conosco</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="first-section">
+        <h1>Quem Somos?</h1>
+        <span>
+          Nós somos um gato café, você pode vir aqui no nosso estabelecimento e
+          tomar café, comer chocolate, com varios gatos ao redor para você
+          brincar, alimentar ou ser mordido e arranhado (Cuidado com a
+          Bolitinha)
+        </span>
+      </section>
+      <section class="second-section">
+        <h1>Nossos Gatos</h1>
+        <h5 class="nome-gato" id="cat-name"></h5>
+        <div class="foto-gato" id="cat-foto"></div>
+        <button type="button" onclick="trocarGatos('left')">left</button>
+        <button type="button" onclick="trocarGatos('right')">right</button>
+      </section>
+      <section class="third-section">
+        <h1>Nossos Produtos</h1>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

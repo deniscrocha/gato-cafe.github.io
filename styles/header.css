@@ -1,0 +1,60 @@
+:root {
+  /* Frappe */
+  --base-cat: #303446;
+  --crust-cat: #232634;
+  --text-cat: #c6d0f5;
+  --blue-cat: #8caaee;
+  --pink-cat: #f4b8e4;
+  --rosewater-cat: #f2d5cf;
+  --mauve-cat: #ca9336;
+  --sky-cat: #99d1db;
+  --lavender-cat: #babbf1;
+  --red-cat: #e78284;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Playwrite IS", cursive;
+}
+
+nav {
+  background-color: var(--crust-cat);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1ren 1.5ren;
+  box-shadow: 2px 2px 2px 2px var(--base-cat);
+  gap: 8rem;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-item {
+  list-style-type: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--pink-cat);
+  font-weight: 500;
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: var(--sky-cat);
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--text-cat);
+}
+
+.actual-page {
+  color: var(--red-cat);
+}
+.actual-page:hover {
+  color: var(--red-cat);
+}

@@ -1,0 +1,64 @@
+:root {
+  /* Frappe */
+  --base-cat: #303446;
+  --text-cat: #c6d0f5;
+  --crust-cat: #232634;
+  --blue-cat: #8caaee;
+  --pink-cat: #f4b8e4;
+  --rosewater-cat: #f2d5cf;
+  --mauve-cat: #ca9336;
+  --sky-cat: #99d1db;
+  --lavender-cat: #babbf1;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--base-cat);
+  font-family: "Playwrite IS", cursive;
+  color: var(--text-cat);
+}
+main {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+main section {
+}
+.first-section {
+  width: 60%;
+  height: 30em;
+}
+
+.first-section h1 {
+  padding: 20px;
+}
+.second-section {
+  width: 40%;
+  height: 30em;
+}
+.nome-gato {
+  width: 100%;
+  height: 2em;
+  margin-top: 1em;
+  color: var(--pink-cat);
+}
+.foto-gato {
+  width: 80%;
+  height: 20em;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.foto-gato img {
+  height: 100%;
+  width: 100%;
+}
+.third-section {
+  width: 100%;
+  height: 20em;
+}
