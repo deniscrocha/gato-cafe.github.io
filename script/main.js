@@ -30,11 +30,11 @@ let lastCat = 0;
 function trocarGatos(side) {
   if (side === "right") {
     lastCat++;
-  } else if (lastCat === 0) {
   } else if (side === "left") {
     lastCat--;
   }
-  if(lastCat === gatos.length){lastCat--}
+  if(lastCat === gatos.length){lastCat=0}
+  if(lastCat === -1){lastCat=gatos.length-1}
   let catName = document.getElementById("cat-name");
   let catFoto = document.getElementById("cat-foto");
   while (catFoto.firstChild) {
